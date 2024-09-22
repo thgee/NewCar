@@ -338,11 +338,12 @@ packages
 ## 🔧 세부 기술스택과 채택한 이유
 
 
-### Pnpm
+### [Pnpm](https://www.notion.so/thgee/Npm-vs-Pnpm-vs-Yarn-vs-Yarn-Berry-10743915ee8180dd8f0af04ad77d60d4?pvs=4)
 * 모노레포 환경에서 각 패키지마다 모듈이 중복으로 설치되어 발생하는 낭비를 막기 위해 도입하였습니다.
 
 
-### MonoRepo
+
+### [MonoRepo](https://www.notion.so/thgee/a28a9f049f5e419e8be56560498c865c?pvs=4)
 * 코드 중복을 줄이고, 공통된 로직이나 일관된 코드 스타일을 각 패키지에서 사용하기 위해 도입하였습니다.
 
 * service와 admin을 분리하여 각 패키지에 대한 번들사이즈를 줄이는 동시에 admin에 대한 보안은 강화되는 효과를 얻었습니다.
@@ -357,13 +358,16 @@ packages
 
 * 컴포넌트 단위로 스타일을 캡슐화하고, 동적으로 스타일을 적용하기 위해 CSS-in-JS 방식을 채택했습니다.
 
-* Styled-component 보다 emotion이 더 유연하고, 번들사이즈가 작다고 판단하여 emotion을 채택했습니다.
+* Styled-component 보다 emotion이 더 유연하고, 번들사이즈가 작다고 판단하여 emotion을 채택했습니다. [styled-component vs emotion](https://www.notion.so/thgee/Emotion-vs-Styled-component-10743915ee818049b1f8c4241fd2870f?pvs=4)
+
+
 
 ### React-query
 
 * 이벤트 페이지 특성상 대규모 트래픽이 예상되어 서버의 부하를 최소화하기 위해 캐싱 기능을 사용했습니다.
 
-* useSuspenseQuery를 사용하여 API 호출 중에도 suspense 컴포넌트가 정상적으로 작동할 수 있도록 하였습니다.
+* [useSuspenseQuery](https://www.notion.so/thgee/useSuspenseQuery-5908a4b235ef4d93805ca4d115a68629?pvs=4)를 사용하여 API 호출 중에도 suspense 컴포넌트가 정상적으로 작동할 수 있도록 하였습니다.
+
 
 ### Framer-motion
 * 복잡한 애니메이션이 많은 프로젝트에서 부드러운 애니메이션 구현을 위해 도입하였습니다.
@@ -387,6 +391,7 @@ packages
 * 추가적으로 PR 작성 시 변경된 패키지가 무엇인지 Github Bot이 댓글로 작성하도록 하여 팀원이 어느 패키지를 수정했는지 바로 알아볼 수 있도록 구현했습니다.
 
 
+<br>
 
 ### UX 개선
 
@@ -394,9 +399,12 @@ packages
 
 * Preview 배포 환경을 통해 A/B test를 진행하여 사용자의 피드백을 효율적으로 반영할 수 있었습니다.
 
+<br>
 
 
 ### 반응형, Cross browsing 웹 구현
+
+
 * 이벤트페이지의 특성 상 모바일로 접속하는 유저가 많을것이라고 판단하여 반응형 웹을 구현하기로 결정했습니다.
 
 * 각종 브라우저와 디바이스마다 폰트, 이미지 등의 호환성 이슈를 해결하기 위해 범용적인 형식을 적절히 채택하여 해결했습니다.
