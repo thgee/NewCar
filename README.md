@@ -327,10 +327,13 @@ packages
 
 ## 📜 이슈관리 및 문서
 
--  이슈관리 - Jira
--  [전체 회의록](https://bside.notion.site/4d152e2f240a4909bec05539d862008a?pvs=4)
+-  [스크럼 및 회고](https://bside.notion.site/dba5bd5cf1904dbd9d2ce2842732c5da?pvs=4)
 -  [FE 회의록](https://bside.notion.site/664ba9b6813e452aa375d68ca0cc693f?pvs=4)
 -  [트러블슈팅](https://bside.notion.site/3b23af17b4bf47d3a6b488212b1f8959?pvs=4)
+
+- Jira, Slack, github를 연동하여 협업했습니다.
+    
+    Jira에서 이슈 생성 혹은 Github에서 PR, merge 시 Slack으로 팀원들에게 알림이 전송되도록 하여 빠른 피드백이 가능하도록 구축했습니다.
 
 <br>
 
@@ -412,3 +415,5 @@ packages
 * Safari 브라우저와 IPhone 환경에서 3D 애니메이션이 작동하지 않는 이슈가 발생하였습니다. Window 객체의 userAgent 메소드를 사용하여 유저의 환경에 따라 2D 애니메이션으로 대체하여 해결하였습니다.
 
 * 웹 표준을 준수하며 작업하는 것의 중요성을 깨달았습니다.
+
+
