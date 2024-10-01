@@ -7,14 +7,11 @@
 <br />
 <br />
 
-## 🔗 배포 URL
-- [Service](https://watermelon-clap.web.app/)
-- [Admin](https://watermelon-clap-admin.web.app/)
 
 <br />
 
 ## 🎬 시연 영상
-- [Youtube](https://www.youtube.com/watch?v=M3i2uMT2Smg)
+- [Youtube](https://youtu.be/Jl60d_1_jno?si=4a61lTGiwlmOc2Ui)
 
 
 <br />
@@ -88,9 +85,10 @@
 
 
 
+
  | 추첨 이벤트 |
 |----------|
-| <img src="https://github.com/user-attachments/assets/809cea84-1d74-4049-b265-57909f179428" width = "700" /> |
+| <img src="https://github.com/user-attachments/assets/37a23174-9928-4b0c-8c33-fdf10f8106e2" width = "700" /> |
 
 <br />
 
@@ -100,7 +98,9 @@
 
 | 파츠 뽑기 |
 |----------|
-| <img src="https://github.com/user-attachments/assets/f6bc38ad-360e-4413-8bf8-91f6b86f244a" width = "700" /> |
+| <img src="https://github.com/user-attachments/assets/4411315f-536c-4231-baa8-b4af0f544027" width = "700" /> |
+
+
 
 <br />
 
@@ -110,7 +110,7 @@
 
 | 파츠 컬렉션 |
 |----------|
-| <img src="https://github.com/user-attachments/assets/862a1785-c550-43ba-b984-fad3fc299b67" width = "700" /> |
+| <img src="https://github.com/user-attachments/assets/72b0eaa0-86da-4ec6-8669-958e37606271" width = "700" /> |
 
 <br />
 
@@ -123,7 +123,7 @@
 
 | 기대평/공유 |
 |----------|
-| <img src="https://github.com/user-attachments/assets/8540bbbc-5b05-4d0b-86e4-efcbde68f7ad" width = "700" /> |
+| <img src="https://github.com/user-attachments/assets/ce569576-afc8-4b37-bb7a-d1bdaafdbb6d" width = "700" /> |
 
 <br />
 
@@ -134,7 +134,7 @@
 
 | 선착순 이벤트 |
 |----------|
-| <img src="https://github.com/user-attachments/assets/d519b9e7-823b-451d-977a-24ee0c63eb62" width = "700" /> |
+| <img src="https://github.com/user-attachments/assets/0cb59578-4271-4675-a0b0-4af29dbb221c" width = "700" /> |
 
 
 
