@@ -331,9 +331,6 @@ packages
 -  [FE 회의록](https://bside.notion.site/664ba9b6813e452aa375d68ca0cc693f?pvs=4)
 -  [트러블슈팅](https://bside.notion.site/3b23af17b4bf47d3a6b488212b1f8959?pvs=4)
 
-- Jira, Slack, github를 연동하여 협업했습니다.
-    
-    Jira에서 이슈 생성 혹은 Github에서 PR, merge 시 Slack으로 팀원들에게 알림이 전송되도록 하여 빠른 피드백이 가능하도록 구축했습니다.
 
 <br>
 
@@ -361,7 +358,8 @@ packages
 
 * 컴포넌트 단위로 스타일을 캡슐화하고, 동적으로 스타일을 적용하기 위해 CSS-in-JS 방식을 채택했습니다.
 
-* Styled-component 보다 emotion이 더 유연하고, 번들사이즈가 작다고 판단하여 emotion을 채택했습니다. [styled-component vs emotion](https://www.notion.so/thgee/Emotion-vs-Styled-component-10743915ee818049b1f8c4241fd2870f?pvs=4)
+* Styled-component 보다 emotion이 더 유연하고, 번들사이즈가 작다고 판단하여 emotion을 채택했습니다.
+  [(styled-component vs emotion)](https://www.notion.so/thgee/Emotion-vs-Styled-component-10743915ee818049b1f8c4241fd2870f?pvs=4)
 
 
 
@@ -410,10 +408,18 @@ packages
 
 * 이벤트페이지의 특성 상 모바일로 접속하는 유저가 많을것이라고 판단하여 반응형 웹을 구현하기로 결정했습니다.
 
-* 각종 브라우저와 디바이스마다 폰트, 이미지 등의 호환성 이슈를 해결하기 위해 범용적인 형식을 적절히 채택하여 해결했습니다.
+* 각종 브라우저와 디바이스마다 폰트, 이미지 등의 호환성 이슈를 `EOT ⇒ WOFF`,  `SVG ⇒ WEBP` 처럼 범용적인 형식을 채택하여 해결하였습니다.
 
 * Safari 브라우저와 IPhone 환경에서 3D 애니메이션이 작동하지 않는 이슈가 발생하였습니다. Window 객체의 userAgent 메소드를 사용하여 유저의 환경에 따라 2D 애니메이션으로 대체하여 해결하였습니다.
 
 * 웹 표준을 준수하며 작업하는 것의 중요성을 깨달았습니다.
 
+<br>
 
+### 협업
+
+- Jira, Slack, github를 연동하여 협업하였습니다.
+  
+- Jira에서 이슈 생성 혹은 Github에서 PR, merge 시 Slack으로 팀원들에게 알림이 전송되도록 하여 빠른 피드백이 가능하도록 구축했습니다.
+  
+- 기획, 디자인, 개발팀이 나뉘어져있는 실무와 유사한 프로젝트를 통해 각 부서간 협업하는 방법을 배웠습니다.
